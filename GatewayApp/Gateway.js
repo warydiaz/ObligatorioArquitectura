@@ -22,7 +22,7 @@ var config=('.src/config');
 
 crearToken = function(compraRecibida){
 var auxToke = {
-    sub : compra.compra.,
+    sub : compra.compra.
     iat : moment.unix(),
     exp : moment().add(14,'days').unix()
 };

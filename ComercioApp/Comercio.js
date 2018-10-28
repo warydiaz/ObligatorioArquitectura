@@ -9,11 +9,11 @@ const servicios = require('./src/Servicios/CompraRutas');
 const gateway = require('./src/Modelo/CategoriaCompraGatewayEsquema');
 
 
-//const auxGateway={categoriaCompra:'Ropa',nombreGateway:'gateway1'}
-//console.log(auxGateway);
-//persistencia.guardarGateway(auxGateway);
+/*const auxGateway={categoriaCompra:'Ropa',nombreGateway:'gateway1'}
+console.log(auxGateway);
+persistencia.guardarGateway(auxGateway);*/
 
-persistencia.buscarGatewayPorCategoria('Electrodomesticos');
+persistencia.buscarGatewayPorCategoria('Ropa');
 
 // Express Configuration
 const app = express();
